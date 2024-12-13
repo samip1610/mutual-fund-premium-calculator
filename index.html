@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutual Fund Premium Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Financial Calculator</h1>
+    <div id="calculator-container">
+        <h2>Mutual Fund Premium Calculator</h2>
+        <input type="number" id="targetAmount" placeholder="Target Amount">
+        <input type="number" id="timePeriod" placeholder="Time Period (Years)">
+        <input type="number" id="rateOfReturn" placeholder="Rate of Return (%)">
+        <button onclick="calculatePremium()">Calculate Premium</button>
+
+        <p id="premiumResult"></p>
+    </div>
+
+    <!-- Ensure the script is linked at the bottom of the page -->
+    <script src="script.js"></script>
+</body>
+</html>
